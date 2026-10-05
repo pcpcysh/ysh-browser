@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bottom_sheet_bg"
+    android:paddingBottom="16dp">
+
+    <View
+        android:layout_width="40dp"
+        android:layout_height="4dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#444444"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="菜单"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#E0E0E0"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:paddingBottom="12dp" />
+
+    <Button
+        android:id="@+id/menu_settings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="⚙️   设置"
+        android:textSize="16sp"
+        android:textColor="#E0E0E0"
+        android:background="#00000000"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="24dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/menu_history"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📜   历史记录"
+        android:textSize="16sp"
+        android:textColor="#E0E0E0"
+        android:background="#00000000"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="24dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/menu_bookmark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🔖   书签"
+        android:textSize="16sp"
+        android:textColor="#E0E0E0"
+        android:background="#00000000"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="24dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/menu_add_bookmark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="⭐   添加书签"
+        android:textSize="16sp"
+        android:textColor="#E0E0E0"
+        android:background="#00000000"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="24dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/menu_share"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🔗   分享网页"
+        android:textSize="16sp"
+        android:textColor="#E0E0E0"
+        android:background="#00000000"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="24dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/menu_shortcut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📌   添加到桌面"
+        android:textSize="16sp"
+        android:textColor="#E0E0E0"
+        android:background="#00000000"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="24dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/menu_incognito"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🕶️   开启无痕模式"
+        android:textSize="16sp"
+        android:textColor="#E0E0E0"
+        android:background="#00000000"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="24dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:textAllCaps="false" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#333333"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp" />
+
+    <Button
+        android:id="@+id/menu_exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🚪   退出"
+        android:textSize="16sp"
+        android:textColor="#CF6679"
+        android:background="#00000000"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="24dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:textAllCaps="false" />
+
+</LinearLayout>

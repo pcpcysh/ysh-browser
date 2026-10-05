@@ -1,0 +1,24 @@
+# 构建产物
+build/
+app/build/
+.gradle/
+app/.gradle/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# 本地配置
+local.properties
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 备份
+*.bak
+
+# APK
+*.apk
+*.aab

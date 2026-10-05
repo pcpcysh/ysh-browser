@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="@android:style/Theme.Material.NoActionBar">
+        <item name="android:colorPrimary">#BB86FC</item>
+        <item name="android:colorAccent">#03DAC6</item>
+        <item name="android:windowBackground">#121212</item>
+        <item name="android:textColorPrimary">#E0E0E0</item>
+        <item name="android:textColorSecondary">#888888</item>
+        <item name="android:statusBarColor">#1E1E1E</item>
+    </style>
+
+    <!-- 菜单弹出/关闭动画 -->
+    <style name="MenuDialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_up</item>
+        <item name="android:windowExitAnimation">@anim/slide_down</item>
+    </style>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="我的下载"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:paddingBottom="10dp" />
+
+    <!-- 当列表为空时显示提示 -->
+    <TextView
+        android:id="@+id/emptyText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="暂无下载文件"
+        android:textSize="18sp"
+        android:visibility="gone" />
+
+    <!-- 显示文件列表 -->
+    <ListView
+        android:id="@+id/downloadListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
