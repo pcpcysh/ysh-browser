@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/menu_card_bg"
+    android:layout_margin="0dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/menuIcon"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:src="@android:drawable/ic_menu_myplaces"
+        android:tint="#E0E0E0"
+        android:contentDescription="" />
+
+    <TextView
+        android:id="@+id/menuLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="书签"
+        android:textSize="13sp"
+        android:textColor="#E0E0E0"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>
