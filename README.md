@@ -31,20 +31,6 @@
 - WebView / SQLite
 - **零第三方库依赖**（极致轻量）
 
-## 📦 构建
-
-### AIDE Pro（手机端）
-
-1. 用 AIDE Pro 打开项目
-2. 点击锤子编译
-3. 点击运行
-
-### Android Studio（电脑端）
-
-1. 克隆项目
-2. Sync Gradle
-3. Run
-
 ## 📁 项目结构
 
 ```
